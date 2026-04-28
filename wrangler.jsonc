@@ -1,10 +1,15 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "justlink",
+  "main": ".open-next/worker.js",
   "compatibility_date": "2026-04-28",
   "compatibility_flags": ["nodejs_compat"],
   "observability": {
     "enabled": true
+  },
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
   },
   "vars": {
     "NEXT_PUBLIC_SUPABASE_URL": "https://xejgekssicaggkdbrgli.supabase.co",
