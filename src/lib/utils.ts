@@ -29,7 +29,7 @@ export function formatNumber(n: number): string {
 }
 
 export function getAppUrl(): string {
-  return process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
+  return process.env.NEXT_PUBLIC_APP_URL || "https://justlink.muratavci16.workers.dev";
 }
 
 export function buildShortUrl(slug: string): string {

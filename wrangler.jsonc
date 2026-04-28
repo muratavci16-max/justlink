@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "justlink",
+  "compatibility_date": "2026-04-28",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "NEXT_PUBLIC_SUPABASE_URL": "https://xejgekssicaggkdbrgli.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inhlamdla3NzaWNhZ2drZGJyZ2xpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcyNjg4MDAsImV4cCI6MjA5Mjg0NDgwMH0.K0fWjgX3ir9MsLmJn8atUgLmb4LhKIZMwdcj52PbN7s",
+    "NEXT_PUBLIC_APP_URL": "https://justlink.muratavci16.workers.dev"
+  }
+}
